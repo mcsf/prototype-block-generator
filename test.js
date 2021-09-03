@@ -23,7 +23,7 @@ for (const dir of fs.readdirSync('./examples')) {
 	// Generate string representing the body of a Gutenberg save function.
 	const generatedCode = generate(inputTree)
 
-	// Evaluate that generated generatedCode into a usable Preact saveComponent.
+	// Evaluate that generated code into a usable Preact saveComponent.
 	const saveComponent = evaluate(generatedCode)
 
 	// Serialise dummy data.
