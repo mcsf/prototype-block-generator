@@ -1,0 +1,1 @@
+<div><div><strong>Level Apo`trophe: {{level}}</strong></div><wp.rich value={content} tagName="div" /></div>

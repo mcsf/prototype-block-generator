@@ -1,0 +1,7 @@
+<textarea>
+	I am a fake PlainText component with the following props:
+	<ul>
+		<li>value: I AM CONTENT</li>
+		<li>tagName: pre</li>
+	</ul>
+</textarea>

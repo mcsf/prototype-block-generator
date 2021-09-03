@@ -1,0 +1,17 @@
+{
+  "name": "mcsf-gutenberg-block-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "htm": "^3.1.0",
+    "preact": "^10.5.14",
+    "preact-render-to-string": "^5.1.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,12 @@
+<div>
+	<div>
+		<strong>Level Apo`trophe: I AM LEVEL</strong>
+	</div>
+	<textarea>
+		I am a fake RichText component with the following props:
+		<ul>
+			<li>value: I AM CONTENT</li>
+			<li>tagName: div</li>
+		</ul>
+	</textarea>
+</div>

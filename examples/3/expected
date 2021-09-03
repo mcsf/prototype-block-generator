@@ -1,0 +1,7 @@
+<textarea>
+	I am a fake RichText component with the following props:
+	<ul>
+		<li>value: I AM CONTENT</li>
+		<li>tagName: div</li>
+	</ul>
+</textarea>
