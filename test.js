@@ -17,13 +17,13 @@ for (const dir of fs.readdirSync('./examples')) {
 		fs.readFileSync(path.join('examples', dir, filename)).toString().trim()
 	)
 
-	// Compute HTM-powered element inputTree.
+	// Compute HTM-powered element tree.
 	const inputTree = parse(input)
 
 	// Generate string representing the body of a Gutenberg save function.
 	const generatedCode = generate(inputTree)
 
-	// Evaluate that generated code into a usable Preact saveComponent.
+	// Evaluate that generated code into a usable Preact component.
 	const saveComponent = evaluate(generatedCode)
 
 	// Serialise dummy data.
